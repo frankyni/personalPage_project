@@ -1,0 +1,48 @@
+body{
+	background-color: #48B550;
+}
+
+#topbar{
+	width: 900px;
+	margin: 0 auto;
+	border: solid 1px red;
+}
+
+#philHS{
+	position: relative;
+	display: inline-block;
+	border: solid 1px red;
+}
+
+#banner{
+	position: relative;
+	display: inline-block;
+	border: solid 1px red;
+	width: 600px;
+	font-size: 24pt;
+	padding-bottom: 50px;
+}
+
+nav{
+	position: fixed;
+	bottom: 0;
+	width: 900px;
+	margin-left: -450px;
+	left: 50%;
+	text-align: center;
+	background-color: #694525;
+	border: double 1px #000000;
+	border-radius: 10px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	width: 33%;
+	font-family: Comic Sans MS;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
