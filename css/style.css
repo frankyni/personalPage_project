@@ -1,26 +1,28 @@
 body{
-	background-color: #48B550;
+    background: -webkit-linear-gradient(left top, #48B550 , #27822D);
+    background: -o-linear-gradient(bottom right, #48B550, #27822D);
+    background: -moz-linear-gradient(bottom right, #48B550, #27822D);
+    background: linear-gradient(to bottom right, #48B550 , #27822D);
 }
 
 #topbar{
 	width: 900px;
 	margin: 0 auto;
-	border: solid 1px red;
 }
 
 #philHS{
-	position: relative;
 	display: inline-block;
-	border: solid 1px red;
+	vertical-align: bottom;
 }
 
 #banner{
-	position: relative;
 	display: inline-block;
-	border: solid 1px red;
-	width: 600px;
-	font-size: 24pt;
-	padding-bottom: 50px;
+	text-align: center;
+	width: 660px;
+	font-family: Comic Sans MS;
+	font-size: 32pt;
+	font-weight: bold;
+	padding-bottom: 75px;
 }
 
 nav{
@@ -35,14 +37,54 @@ nav{
 	border-radius: 10px;
 }
 
+#spacenavbar{
+	height: 75px;
+}
+
 nav ul li{
 	display: inline-block;
 	list-style: none;
 	width: 33%;
 	font-family: Comic Sans MS;
+	font-weight: bold;
 }
 
-a{
+nav ul li a{
 	text-decoration: none;
 	color: #000000;
+}
+
+nav ul li a:visited{
+	color: #000000;
+}
+
+nav ul li a:hover{
+	text-decoration: underline;
+	color: #8A6FDE;
+}
+
+#container{
+	width: 700px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-family: Comic Sans MS;
+}
+
+article header{
+	font-size: 28pt;
+	text-align: center;
+}
+
+p{
+	text-indent: 30px;
+}
+
+article p{
+	font-size: 20pt;
+	text-align: justify;
+}
+
+article footer{
+	font-size: 6pt;
+	text-align: right;
 }
