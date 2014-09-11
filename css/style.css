@@ -22,7 +22,11 @@ body{
 	font-family: Comic Sans MS;
 	font-size: 32pt;
 	font-weight: bold;
-	padding-bottom: 75px;
+	padding-bottom: 85px;
+	padding-top: 80px;
+	border: double 1px #000000;
+	border-radius: 10px;
+	background-color: #694525;
 }
 
 nav{
@@ -38,7 +42,7 @@ nav{
 }
 
 #spacenavbar{
-	height: 75px;
+	height: 73px;
 }
 
 nav ul li{
@@ -66,8 +70,11 @@ nav ul li a:hover{
 #container{
 	width: 700px;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 40px;
 	font-family: Comic Sans MS;
+	border: double 1px #000000;
+	border-radius: 10px;
+	background-color: #694525;
 }
 
 article header{
@@ -75,16 +82,14 @@ article header{
 	text-align: center;
 }
 
-p{
-	text-indent: 30px;
-}
-
 article p{
 	font-size: 20pt;
 	text-align: justify;
+	margin: 10px;
 }
 
 article footer{
 	font-size: 6pt;
 	text-align: right;
+	margin-bottom: 5px;
 }
